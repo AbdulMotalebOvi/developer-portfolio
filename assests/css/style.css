@@ -11,7 +11,7 @@ body {
     color: orange;
 }
 
-section {
+.flexibal-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,13 +35,19 @@ section {
     text-transform: uppercase;
 }
 
-#top-banner {
+.top-banner {
     background-repeat: no-repeat;
     background-image: url(/images/top-banner.png);
 }
 
-#dream-big {
+.dream-big {
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#Experiences {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(/images/exp-bg.png);
 }
