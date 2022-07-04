@@ -2,6 +2,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -50,4 +54,23 @@ body {
     background-position: left;
     background-repeat: no-repeat;
     background-image: url(/images/exp-bg.png);
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    padding-left: 2%;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience_border_left {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
